@@ -13,7 +13,11 @@ Additionally, I recommend you use the barrel jack with a 4A power supply.
   You can check this using:
   $ python3 --version
   Note:- python3.5 or higher would be fine otherwise, you can install it with:
-  $ sudo apt install python3-dev
+  $ sudo apt-get install python3-dev
+  
+  Checking of temperature:
+  $ cat /sys/class/thermal/thermal_zone0/temp
+  (the value fetched should be divided by 1000 to obtain the actual temperature in °C)
 
 # How to install:
   Clone the respiratory and run:
