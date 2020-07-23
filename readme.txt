@@ -1,5 +1,5 @@
 # Jetson PWM fan control
-  Automatic fan control for the Nvidia Jetson Nano
+  Automagic fan control for the Nvidia Jetson Nano
 
 # Requirements:
   Hardware:
@@ -40,8 +40,8 @@ MAX_PERF values greater than 0 maximize system performance by setting the CPU an
 
 Any changes in the script will be will be applied after the next reboot.
 You can run:
-$ sudo service automatic-fan restart
+$ sudo service automagic-fan restart
 to apply changes immediately.
 
 If you suspect something went wrong, please check:
-$ sudo service automatic-fan status
+$ sudo service automagic-fan status
